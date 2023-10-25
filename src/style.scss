@@ -1,0 +1,40 @@
+$container:80%;
+$height:auto;
+$container-fluid:100%;
+$text-success:green;
+$text-danger:red;
+$text-info:blue;
+$text-white:white;
+$margin-auto:auto;
+$bg-secondary:lightgray;
+$bg-white:white;
+$padding:10px;
+$d-flex:flex;
+$flex-direction:row;
+
+body 
+{
+    background-color: $bg-secondary;
+}
+.appointment-app
+{
+    width: $container;
+    height: auto;
+    margin: $margin-auto;
+    padding: $padding;
+    background-color: $bg-white;
+    display: $d-flex;
+    flex-direction: $flex-direction;
+}
+input[type="text"]
+{
+ width: $container-fluid;
+ padding: $padding;
+}
+input[type="submit"]
+{
+ width: $container-fluid;
+ padding: $padding;
+ background-color: $bg-secondary;
+ border: none;
+}
